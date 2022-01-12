@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
     </script>
+      <link rel="stylesheet" href="stylesheet.css" />
     <title>Show GPA</title>
 </head>
 <body id="body">
+        <div class="table_style">
+            <h1>Show Grade</h1>
          <div style="display: inline-block;">
             <p>Student : </p>
             <select id="list" onchange="getSelectValue();">
@@ -38,7 +41,7 @@
                 <option value="s2">Semester 2</option>
             </select>
         </div>
-      
+    </div>
         <script>
             function getSelectValue()
             {
@@ -3126,5 +3129,6 @@
             }
       
         </script>
+
 </body>
 </html>
